@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Mac;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
+use SoftDeletes;
 
 class MacController extends Controller
 {

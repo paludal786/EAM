@@ -8,6 +8,7 @@ use App\Models\Employee;
 use App\Models\Keyboard;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
+use SoftDeletes;
 
 class EmployeeController extends Controller
 {

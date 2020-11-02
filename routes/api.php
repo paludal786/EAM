@@ -41,3 +41,5 @@ Route::post('/mouse/{id}/delete', 'WebControllers\MouseController@deleteMouse');
 Route::get('/macs', 'WebControllers\MacController@listMac');
 Route::post('/mac/add', 'WebControllers\MacController@addMac');
 Route::post('/mac/{id}/delete', 'WebControllers\MacController@deleteMac');
+
+Route::get('/dashboard-meta-api', 'WebControllers\DashboardController@DashboardMetaApi');

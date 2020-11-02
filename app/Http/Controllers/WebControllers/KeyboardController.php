@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Keyboard;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
+use SoftDeletes;
 
 class KeyboardController extends Controller
 {
